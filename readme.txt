@@ -1,8 +1,8 @@
 # Bulmapress
-## A WordPress flexbox theme
+###A WordPress flexbox theme
 
 
-Hi. I'm a WordPress flexbox theme called Bulmapress.
+Hi. I'm a flexbox theme called Bulmapress.
 
 - Based on [Underscores](http://underscores.me/)
 - [Bulma](http://bulma.io) integration
@@ -11,9 +11,6 @@ Hi. I'm a WordPress flexbox theme called Bulmapress.
 - Stable tag: 0.0.1
 - License: [GNU General Public License v2 or later](http://www.gnu.org/licenses/gpl-2.0.html)
 
-## Demo
-
-[demo.bulmapress.com](http://demo.bulmapress.com/)
 
 ## Installation
 
@@ -27,12 +24,11 @@ Hi. I'm a WordPress flexbox theme called Bulmapress.
 
 Bulmapress includes support for Infinite Scroll in Jetpack.
 
-## Changelog
+##Changelog
 
-- *v0.0.2 - Dec 30 2017*: **Updated Bulma to 0.6.1**
-- *v0.0.1 - Jan 04 2017* : **Initial draft**
+*v0.0.1 - Jan 04 2017* : **Initial draft**
 
-## Credits
+##Credits
 
 * Based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 * bulma.io http://bulma.io/, (C) 2017 Jeremy Thomas, [MIT](http://opensource.org/licenses/MIT)

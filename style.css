@@ -1,0 +1,184 @@
+/*
+Theme Name: Bulmapress
+Theme URI: http://bulmapress.com/
+Author: Scops
+Author URI: http://scops.com
+Description: A modern wordpress starter theme built on top of underscores (by Autommatic) with Bulma.io mobile-first flexbox frontend.
+Version: 0.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: bulmapress
+Tags: one-column, two-columns, three-columns, four-columns, grid-layout, featured-images, accessibility-ready, featured-images, microformats, sticky-post, threaded-comments, translation-ready, blog, news, photography, portfolio
+
+Bulmapress is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Main stylesheet: /frontend/bulmapress/css/bulmapress.css
+
+Bulma Sass: /frontend/bulma/sass/
+Bulmapress Sass: /frontend/bulmapress/sass/
+*/
+p {
+    font-family: 'Ubuntu';
+    font-size: 18px
+}
+
+nav li {
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1em;
+    font-size: 1.3em;
+    color: white;
+    font-family: 'IM Fell French Canon SC', serif;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+.current-menu-item {
+    background-color: dimgrey;
+}
+
+.nav-logo {
+    padding-top: 8px;
+    padding-left: 20px;
+}
+
+.navbar-item.is-tab:hover {
+    /*border-top: 1px solid #ffffff;*/
+    border-bottom: 1px solid #ffffff;
+    background-color: #ffffff;
+    color: black;
+}
+
+#site-navigation {
+    background-color: black;
+}
+
+/* -- Footer -- */
+
+.footer-distributed{
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+
+    padding: 45px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left p{
+    color:  #8f9296;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+    font-size:18px;
+    font-weight: bold;
+    color:  #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+}
+
+.footer-distributed .footer-right{
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color:  #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-left: 3px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right{
+        text-align: center;
+    }
+
+    .footer-distributed .footer-right{
+        float: none;
+        margin: 0 auto 20px;
+    }
+
+    .footer-distributed .footer-left p.footer-links{
+        line-height: 1.8;
+    }
+}
+
+.fa {
+    vertical-align: baseline !important;
+}
+.card-image {
+    display: none !important;
+}
+
+.content {
+    padding-top: 20px;
+    position: inherit;
+}
+
+.home-body, .about-body, .history-body {
+    font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.home-title, .about-title, .history-title {
+    font-family: 'IM Fell French Canon SC', serif;
+    font-size: 22px;
+}
+
+.about-secondtitle {
+    font-family: 'IM Fell French Canon SC', serif;
+    font-size: 18px;
+}
+
+.sponsors {
+    font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+}
+
+.history-main-title {
+    font-family: 'IM Fell French Canon SC', serif;
+    font-size: 22px;
+}
+
+.history-second-title, .history-third-title, .history-fourth-title, .history-fifth-title {
+    font-family: 'IM Fell French Canon SC', serif;
+    font-size: 16px;
+}
+
+
+.history-first-body, .history-second-body, .history-third-body, .history-fourth-body, .history-fifth-body {
+    font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
